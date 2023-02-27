@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lkkErGBLgRlQegt/PbhAOoJ5v5Gf1zsEySisTvTrBIo=",
+  "Hash": "OgTPGWQozZrNdiS2zeaCkWI8tos5gxzTt2kl+wprY+8=",
   "Source": "SubdivisionOfPriceAreas",
   "BasePath": "_content/SubdivisionOfPriceAreas",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SubdivisionOfPriceAreas.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\css\\main.css",
+      "SourceId": "SubdivisionOfPriceAreas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\",
+      "BasePath": "_content/SubdivisionOfPriceAreas",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
       "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\css\\site.css",
       "SourceId": "SubdivisionOfPriceAreas",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\script.js",
+      "SourceId": "SubdivisionOfPriceAreas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\",
+      "BasePath": "_content/SubdivisionOfPriceAreas",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\site.js",

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\SubdivisionOfPriceAreas.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\site.js",
