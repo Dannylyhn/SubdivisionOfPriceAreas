@@ -3,21 +3,22 @@
 var editableLayers = new L.FeatureGroup();
 map.addLayer(editableLayers);
 
-//geoJSON feature to add to map
+//geoJSON feature to add to map with ajax. This can be done better using other scripts/plugin.
+//var geojsonfeature = "../json/geojson.json";
+//var jsonlayer = new l.geojson().addto(map);
 
-var geojsonFeature = "../json/geojson.json";
+//$.ajax({
+//    datatype: "json",
+//    url: geojsonfeature,
+//    success: function (data) {
+//        $(data.features).each(function (key, data) {
+//            jsonlayer.adddata(data);
+//        });
+//    }
+//});
 
-var jsonLayer = new L.geoJson().addTo(map);
-
-$.ajax({
-    dataType: "json",
-    url: geojsonFeature,
-    success: function (data) {
-        $(data.features).each(function (key, data) {
-            jsonLayer.addData(data);
-        });
-    }
-});
+var geojsonLayer = new L.GeoJSON.AJAX("../json/geojson.json");
+geojsonLayer.addTo(map);
 
 //Options for editing via drawing
 var options = {
