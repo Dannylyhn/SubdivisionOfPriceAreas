@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\leafletajax.js",
+      "PackagePath": "staticwebassets\\js\\leafletajax.js"
+    },
+    {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\json\\geojson.json",
+      "PackagePath": "staticwebassets\\json\\geojson.json"
     },
     {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\lib\\bootstrap\\LICENSE",

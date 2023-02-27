@@ -11,9 +11,4 @@
     <None Include="wwwroot\js\script.js" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-    <Folder Include="Styles\" />
-  </ItemGroup>
-
 </Project>

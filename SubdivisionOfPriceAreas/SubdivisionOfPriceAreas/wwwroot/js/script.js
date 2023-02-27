@@ -1,12 +1,13 @@
 ﻿var map = L.map('map').setView([51.505, -0.09], 3);
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
 var editableLayers = new L.FeatureGroup();
 map.addLayer(editableLayers);
 
-var geojsonFeature = "json\geojson.json";
+//geoJSON feature to add to map
+
+var geojsonFeature = "../json/geojson.json";
+
+var jsonLayer = new L.geoJson().addTo(map);
 
 $.ajax({
     dataType: "json",
@@ -18,8 +19,7 @@ $.ajax({
     }
 });
 
-var jsonLayer = new L.geoJson().addTo(map);
-
+//Options for editing via drawing
 var options = {
     position: 'topright',
     draw: {
@@ -43,7 +43,6 @@ var options = {
 
 var drawControl = new L.Control.Draw(options);
 map.addControl(drawControl);
-
 
 map.on(L.Draw.Event.CREATED, function (e) {
     var type = e.layerType,
