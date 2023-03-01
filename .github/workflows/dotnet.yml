@@ -6,7 +6,7 @@ on:
   push:
     branches: [ "**" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "**" ]
 env:
   GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   working-directory: ./SubdivisionOfPriceAreas
