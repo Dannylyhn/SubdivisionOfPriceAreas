@@ -16,6 +16,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
+      env:
+        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN  }}
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
@@ -24,5 +26,3 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      env:
-          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN  }}
