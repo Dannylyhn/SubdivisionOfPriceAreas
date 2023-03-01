@@ -52,8 +52,9 @@ map.on(L.Draw.Event.CREATED, function (e) {
     if (type === 'marker') {
         layer.bindPopup('A popup!');
     }
-
     editableLayers.addLayer(layer);
+    console.log("A drawing has been created:")
+    console.log(JSON.stringify(layer.toGeoJSON()));
 });
 
 
