@@ -20,16 +20,13 @@ jobs:
         vs-version: 16.0
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
-      env:
-        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN  }}
-        working-directory: ./SubdivisionOfPriceAreas/SubdivisionOfPriceAreas
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ${{env.working-directory}}
+      working-directory: ./SubdivisionOfPriceAreas
     - name: Build
       run: dotnet build --no-restore
-      working-directory: ${{env.working-directory}}
+      working-directory: ./SubdivisionOfPriceAreas
     - name: Test
       run: dotnet test --no-build --verbosity normal
