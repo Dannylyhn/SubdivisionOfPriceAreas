@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\json\\geojson.json"
     },
     {
+      "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\json\\newMap.json",
+      "PackagePath": "staticwebassets\\json\\newMap.json"
+    },
+    {
       "Id": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

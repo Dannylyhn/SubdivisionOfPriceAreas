@@ -6,3 +6,9 @@
 #map {
     height: 700px;
 }
+
+#addArea {
+    margin-bottom: 70px;
+    float:right;
+    background-color: green;
+}

@@ -17,8 +17,40 @@ map.addLayer(editableLayers);
 //    }
 //});
 
+//GeoJSON feature objects. Get them from geojson files that we get with ajax
 var geojsonLayer = new L.GeoJSON.AJAX("../json/geojson.json");
-geojsonLayer.addTo(map);
+/*geojsonLayer.addTo(map);*/
+var geoJsonLayerReplacement = new L.GeoJSON.AJAX("../json/newMap.json");
+
+//layer group to add to map
+var geojsonLayerGroup = new L.LayerGroup();
+geojsonLayerGroup.addTo(map);
+geojsonLayerGroup.addLayer(geojsonLayer);
+
+
+
+//Button to change map
+var buttonAddArea = document.getElementById("addArea");
+buttonAddArea.addEventListener("click", changeMap);
+
+function changeMap() {
+    //remove all layers
+    geojsonLayerGroup.eachLayer(function (layer) {
+        geojsonLayerGroup.removeLayer(layer);
+    });
+
+    //Add new layer
+    geojsonLayerGroup.addLayer(geoJsonLayerReplacement);
+
+    let i = 0;
+    geojsonLayerGroup.eachLayer(function () { i += 1; });
+    console.log('Map has', i, 'layers.');
+
+    //map.eachLayer(function (layer) {
+    //    map.removeLayer(layer);
+    //});
+    //geoJsonLayerReplacement.addTo(map);
+}
 
 //Options for editing via drawing
 var options = {

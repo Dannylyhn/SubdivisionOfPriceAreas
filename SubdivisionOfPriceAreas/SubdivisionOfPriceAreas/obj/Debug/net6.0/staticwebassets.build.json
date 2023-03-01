@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v6QiZfGrjVHR8x2ukPGGiHjnogb/3+ZNR5/mHRoP0PU=",
+  "Hash": "ogzk2r4Rq57gKzTkhEvU2izR/cUoe0XGE+ULuESxYNA=",
   "Source": "SubdivisionOfPriceAreas",
   "BasePath": "_content/SubdivisionOfPriceAreas",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\json\\geojson.json"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\json\\newMap.json",
+      "SourceId": "SubdivisionOfPriceAreas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\",
+      "BasePath": "_content/SubdivisionOfPriceAreas",
+      "RelativePath": "json/newMap.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\json\\newMap.json"
     },
     {
       "Identity": "C:\\Users\\nguye\\Desktop\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\SubdivisionOfPriceAreas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
