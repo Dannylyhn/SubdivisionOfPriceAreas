@@ -3,8 +3,16 @@
 var editableLayers = new L.FeatureGroup();
 map.addLayer(editableLayers);
  
-var geojsonLayer = new L.GeoJSON.AJAX("../json/geojson.json");
+var geojsonLayer = new L.GeoJSON.AJAX("../json/geojson.json", {
+    onEachFeature: onEachFeature
+    });
 var geoJsonLayerReplacement = new L.GeoJSON.AJAX("../json/newMap.json");
+
+function onEachFeature(feature, layer) {
+    layer.on('click', function (e) {
+        console.log(e);
+    });
+}
 
 //layer group to add to map
 var geojsonLayerGroup = new L.LayerGroup();
@@ -62,5 +70,9 @@ map.on(L.Draw.Event.CREATED, function (e) {
     console.log("A drawing has been created:")
     console.log(JSON.stringify(layer.toGeoJSON()));
 });
+
+
+
+
 
 
