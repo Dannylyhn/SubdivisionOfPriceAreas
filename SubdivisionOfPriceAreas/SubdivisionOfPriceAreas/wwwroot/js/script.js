@@ -11,6 +11,7 @@ var geoJsonLayerReplacement = new L.GeoJSON.AJAX("../json/newMap.json");
 function onEachFeature(feature, layer) {
     layer.on('click', function (e) {
         console.log(e);
+        layer.setStyle({fillColor: "blue"})
     });
 }
 
